@@ -1,0 +1,603 @@
+{
+  "meta": {
+    "owner": "krystin",
+    "updated_at": "2025-12-26",
+    "version": 2,
+    "purpose": "Canonical nail inventory for querying + design matching. Tags are the primary query surface. 'verified' indicates whether details are web-derived or confirmed in-hand."
+  },
+  "items": [
+    {
+      "id": "kiara_sky_diamondfx_107_so_into_blue",
+      "category": "product",
+      "type": "gel_color",
+      "brand": "Kiara Sky",
+      "line": "DiamondFX",
+      "name": "So Into Blue",
+      "shade_name": "So Into Blue",
+      "shade_code_or_sku": "107 (pending in-hand confirmation)",
+      "size": "15 ml / 0.5 fl oz",
+      "verified": "web",
+      "tags": ["blue", "glitter", "reflective", "sparkle", "party", "statement"],
+      "capabilities": ["reflective_glitter_effect"],
+      "notes": ["Reflective glitter effect (stronger under flash/bright light)."],
+      "source_urls": [],
+      "needs_QA": ["Confirm the code is #107 on your bottle label when it arrives."]
+    },
+    {
+      "id": "kiara_sky_velvet_matte_top_coat",
+      "category": "product",
+      "type": "top_coat",
+      "brand": "Kiara Sky",
+      "line": "Gel Polish Top Coat",
+      "name": "Velvet Matte Top Coat",
+      "size": "15 ml / 0.5 oz",
+      "verified": "web",
+      "tags": ["top_coat", "matte", "non_wipe", "finish_control"],
+      "capabilities": ["matte_finish"],
+      "notes": ["Matte top coat; non-wipe (no alcohol wipe needed)."],
+      "source_urls": [],
+      "needs_QA": []
+    },
+    {
+      "id": "kiara_sky_gel_pro_hema_free_high_shine_non_wipe_topcoat",
+      "category": "product",
+      "type": "top_coat",
+      "brand": "Kiara Sky",
+      "line": "Gel Pro",
+      "name": "HEMA-Free High-Shine Non-Wipe TopCoat",
+      "size": "15 ml / 0.5 fl oz",
+      "verified": "web",
+      "tags": ["top_coat", "glossy", "non_wipe", "hema_free", "finish_control"],
+      "capabilities": ["high_gloss_finish"],
+      "notes": ["Gel Pro system top coat marketed as HEMA-free."],
+      "source_urls": [],
+      "needs_QA": ["If your bottle has a step number or exact variant name, share it and I’ll match it precisely."]
+    },
+    {
+      "id": "kiara_sky_gel_pod_metallics_silver_fox_gpm601",
+      "category": "product",
+      "type": "gel_paint_pod",
+      "brand": "Kiara Sky",
+      "line": "Gel Pod Metallics",
+      "name": "Silver Fox",
+      "shade_name": "Silver Fox",
+      "shade_code_or_sku": "GPM601",
+      "size": "0.17 fl oz / 5 ml",
+      "verified": "web",
+      "tags": ["silver", "metallic", "chrome_like", "nail_art", "detail"],
+      "capabilities": ["metallic_art"],
+      "notes": ["Metallic gel paint pod intended for a mirror-like metallic look."],
+      "source_urls": [],
+      "needs_QA": []
+    },
+    {
+      "id": "kiara_sky_gel_pod_pro_paints_blank_slate_gp502",
+      "category": "product",
+      "type": "gel_paint_pod",
+      "brand": "Kiara Sky",
+      "line": "Gel Pod Pro Paints",
+      "name": "Blank Slate",
+      "shade_name": "Blank Slate",
+      "shade_code_or_sku": "GP502",
+      "size": "0.17 fl oz / 5 ml",
+      "verified": "web",
+      "tags": ["white", "opaque", "nail_art", "linework", "french", "detail"],
+      "capabilities": ["crisp_line_art"],
+      "notes": ["High-pigment white intended for crisp tips and detailed art."],
+      "source_urls": [],
+      "needs_QA": []
+    },
+    {
+      "id": "born_pretty_24_color_stamping_set_10ml_each",
+      "category": "product",
+      "type": "stamping_polish_set",
+      "brand": "Born Pretty",
+      "line": "Stamping Polish",
+      "name": "24-color set",
+      "size": "24 x 10 ml",
+      "verified": "in_hand",
+      "tags": ["stamping", "air_dry", "high_pigment", "nail_art", "pattern"],
+      "capabilities": ["stamping_color"],
+      "notes": [
+        "Air-dry stamping polishes (not gel).",
+        "OK for nail art over gel; seal under gel top coat."
+      ],
+      "source_urls": [],
+      "needs_QA": []
+    },
+    {
+      "id": "asp_charismatic_soak_off_gel_polish_glaze_sbs-011604",
+      "category": "product",
+      "type": "effect_topper",
+      "brand": "ASP",
+      "line": "Charismatic Soak Off Gel Polish",
+      "name": "GLAZE",
+      "shade_name": "GLAZE",
+      "shade_code_or_sku": "SBS-011604",
+      "size": "0.3 oz (approx 9 ml)",
+      "verified": "web",
+      "tags": ["topper", "glaze", "sheer", "effect_layer", "transformer"],
+      "capabilities": ["layering_effect"],
+      "notes": ["Designed to enhance any gel color; effect depends on base color."],
+      "source_urls": [
+        "https://www.sallybeauty.com/nails/shop-all-nails/charismatic-soak-off-gel-polish-glaze/SBS-011604.html"
+      ],
+      "needs_QA": ["In-hand: clear shimmer/pearl glaze vs tinted jelly glaze?"]
+    },
+    {
+      "id": "fingerpaints_gelements_paint_me_oh_so_modern_sbs-806471",
+      "category": "product",
+      "type": "gel_color",
+      "brand": "FingerPaints",
+      "line": "GELements",
+      "name": "Paint Me Oh-So-Modern",
+      "shade_name": "Paint Me Oh-So-Modern",
+      "shade_code_or_sku": "SBS-806471",
+      "size": "0.3 oz (approx 9 ml)",
+      "verified": "web",
+      "tags": ["gel_color", "unknown_color", "needs_tagging"],
+      "capabilities": [],
+      "notes": ["Needs confirmation for finish + color family/undertone/opacity."],
+      "source_urls": [
+        "https://www.sallybeauty.ca/nails/nail-polish-and-color/shop-by-color/paint-me-oh-so-modern-gel-polish/SBS-806471.html"
+      ],
+      "needs_QA": ["Finish (cream/shimmer/jelly) + swatch color family/undertone + opacity."]
+    },
+    {
+      "id": "asp_gelements_leave_me_alone_sbs-000153",
+      "category": "product",
+      "type": "gel_color",
+      "brand": "ASP",
+      "line": "GELements",
+      "name": "Leave Me Alone",
+      "shade_name": "Leave Me Alone",
+      "shade_code_or_sku": "SBS-000153",
+      "size": "0.3 oz",
+      "verified": "web",
+      "tags": ["red", "deep", "metallic", "statement"],
+      "capabilities": ["metallic_finish"],
+      "notes": ["Web description: dark red with a metallic finish."],
+      "source_urls": [
+        "https://www.sallybeauty.com/nails/nail-polish-and-color/shop-by-color/leave-me-alone-gel-polish/SBS-000153.html"
+      ],
+      "needs_QA": ["In-hand: burgundy/wine vs true red; foil-metallic vs shimmer-metallic."]
+    },
+    {
+      "id": "asp_gelements_making_waves_sbs-009016",
+      "category": "product",
+      "type": "gel_color",
+      "brand": "ASP",
+      "line": "GELements",
+      "name": "Making Waves",
+      "shade_name": "Making Waves",
+      "shade_code_or_sku": "SBS-009016",
+      "size": "0.3 oz",
+      "verified": "web",
+      "tags": ["blue", "metallic", "shimmer", "statement"],
+      "capabilities": ["shimmer_metallic_finish"],
+      "notes": ["Web description: metallic blue with a shimmer finish."],
+      "source_urls": [
+        "https://www.sallybeauty.com/brands/asp/making-waves-gel-polish/SBS-009016.html"
+      ],
+      "needs_QA": ["In-hand: metallic vs shimmer feel; opacity in 2 coats."]
+    },
+    {
+      "id": "gelish_mini_prim-rose_and_proper_sbs-004842",
+      "category": "product",
+      "type": "gel_color",
+      "brand": "Gelish",
+      "line": "MINI Soak-Off Gel Nail Polish",
+      "name": "Prim-Rose And Proper",
+      "shade_name": "Prim-Rose And Proper",
+      "shade_code_or_sku": "SBS-004842",
+      "size": "0.3 oz (approx 9 ml)",
+      "verified": "web",
+      "tags": ["nude", "pink_taupe", "neutral", "creme", "everyday"],
+      "capabilities": ["creme_finish"],
+      "notes": ["Web description: Pink Taupe Crème; light neutral nude with a crème finish."],
+      "source_urls": [
+        "https://www.sallybeauty.ca/nails/nail-polish-and-color/shop-by-color/mini-soak-off-gel-nail-polish-prim-rose-and-proper/SBS-004842.html"
+      ],
+      "needs_QA": ["In-hand: pink-taupe vs beige-nude; opacity in 2 coats."]
+    },
+    {
+      "id": "nailboo_forever_glaze_gel_base_coat",
+      "category": "product",
+      "type": "base_coat",
+      "brand": "Nailboo",
+      "line": "Forever Glaze",
+      "name": "Gel Base Coat",
+      "size": "unknown (not listed on page)",
+      "verified": "web",
+      "tags": ["base_coat", "adhesion", "hema"],
+      "capabilities": ["base_adhesion"],
+      "notes": ["Contains HEMA (per ingredient list on the page)."],
+      "cure_times_web": { "LED": "30–60 seconds", "UV": "2 minutes" },
+      "source_urls": ["https://nailboo.com/products/gel-base-coat"],
+      "needs_QA": ["Bottle size (mL/oz) from your label."]
+    },
+    {
+      "id": "dnd_duo_767_sparkling_shine",
+      "category": "product",
+      "type": "duo_set",
+      "brand": "DND (Daisy DND)",
+      "line": "DND Duo",
+      "name": "Sparkling Shine",
+      "shade_name": "Sparkling Shine",
+      "shade_code_or_sku": "767",
+      "size": { "gel": "15 ml / 0.5 fl oz", "lacquer": "15 ml / 0.5 fl oz" },
+      "verified": "web",
+      "tags": ["red", "sparkle", "duo", "gel_and_lacquer"],
+      "capabilities": ["gel_color", "matching_lacquer"],
+      "notes": ["Amazon listing: Duo includes matching gel + traditional lacquer."],
+      "source_urls": ["https://www.amazon.com/dp/B0BCXHCR17"],
+      "needs_QA": ["In-hand: confirm label matches 767 Sparkling Shine; finish (glitter/shimmer/metallic)."]
+    },
+    {
+      "id": "canni_cc5_9119_glitter_red",
+      "category": "product",
+      "type": "gel_color",
+      "brand": "CANNI",
+      "line": "Gel Nail Polish",
+      "name": "Glitter Red",
+      "shade_name": "Glitter Red",
+      "shade_code_or_sku": "9119-Glitter Red",
+      "size": "9 ml",
+      "verified": "web",
+      "tags": ["red", "glitter", "burgundy", "statement"],
+      "capabilities": ["glitter_finish"],
+      "notes": ["Amazon listing phrasing suggests dark burgundy glitter red."],
+      "source_urls": ["https://www.amazon.com/dp/B0CSDNHS8Y"],
+      "needs_QA": ["In-hand: burgundy-wine vs true red."]
+    },
+    {
+      "id": "opi_gelement_emotional",
+      "category": "product",
+      "type": "gel_color",
+      "brand": "OPI",
+      "line": "GELement (At-Home)",
+      "name": "EMOtional",
+      "shade_name": "EMOtional",
+      "size": "9 ml / 0.3 fl oz",
+      "verified": "web",
+      "tags": ["blue_black", "blue_undertone", "creme", "dark", "opaque_guess"],
+      "capabilities": ["creme_finish"],
+      "notes": ["Described as black-blue with blue undertones."],
+      "source_urls": ["https://www.opi.com/products/at-home-gel-nail-polish-emotional"],
+      "needs_QA": ["Do you full-cure this reliably in the Kiara Sky lamp (vs another lamp)?"]
+    },
+    {
+      "id": "opi_gelement_made_ya_blush",
+      "category": "product",
+      "type": "gel_color",
+      "brand": "OPI",
+      "line": "GELement (At-Home)",
+      "name": "Made Ya Blush",
+      "shade_name": "Made Ya Blush",
+      "size": "9 ml / 0.3 fl oz",
+      "verified": "web",
+      "tags": ["pink", "baby_pink", "semi_sheer", "glowy", "clean_girl", "everyday"],
+      "capabilities": ["semi_sheer_glow"],
+      "notes": ["Web description: baby pink semi-sheer with 'lit from within' shine."],
+      "source_urls": ["https://www.opi.com/products/at-home-gel-nail-polish-made-ya-blush"],
+      "needs_QA": ["In-hand: stays semi-sheer in 2 coats or builds opaque?"]
+    },
+    {
+      "id": "dashing_diva_one_gel_magnetic_blu",
+      "category": "product",
+      "type": "one_step_magnetic_gel",
+      "brand": "Dashing Diva",
+      "line": "One Gel Magnetic",
+      "name": "Blu",
+      "shade_name": "Blu",
+      "size": "10 ml / 0.33 oz",
+      "verified": "web",
+      "tags": ["magnetic", "cat_eye", "velvet", "blue_grey", "shimmer", "one_step"],
+      "capabilities": ["magnetic_effect"],
+      "notes": ["Brand recommends curing in One Gel lamp; no base/top required."],
+      "source_urls": ["https://dashingdiva.com/products/one-gel-magnetic-blu"],
+      "needs_QA": ["In-hand: more blue-steel/grey or more true-blue shimmer?"]
+    },
+    {
+      "id": "dashing_diva_one_gel_magnetic_feather",
+      "category": "product",
+      "type": "one_step_magnetic_gel",
+      "brand": "Dashing Diva",
+      "line": "One Gel Magnetic",
+      "name": "Feather",
+      "shade_name": "Feather",
+      "size": "10 ml / 0.33 oz",
+      "verified": "web",
+      "tags": ["magnetic", "cat_eye", "velvet", "white_pink", "milky", "shimmer", "one_step"],
+      "capabilities": ["magnetic_effect"],
+      "notes": ["Brand recommends curing in One Gel lamp; no base/top required."],
+      "source_urls": ["https://dashingdiva.com/products/one-gel-magnetic-feather"],
+      "needs_QA": ["In-hand: milky-pink vs white-pink; sheer vs opaque."]
+    },
+    {
+      "id": "dashing_diva_one_gel_magnetic_villainous",
+      "category": "product",
+      "type": "one_step_magnetic_gel",
+      "brand": "Dashing Diva",
+      "line": "One Gel Magnetic",
+      "name": "Villainous",
+      "shade_name": "Villainous",
+      "size": "10 ml / 0.33 oz",
+      "verified": "web",
+      "tags": ["magnetic", "cat_eye", "velvet", "berry_pink", "shimmer", "one_step"],
+      "capabilities": ["magnetic_effect"],
+      "notes": ["Brand recommends curing in One Gel lamp; no base/top required."],
+      "source_urls": ["https://dashingdiva.com/products/one-gel-magnetic-villainous"],
+      "needs_QA": ["In-hand: berry-pink vs plum/mauve lean."]
+    },
+    {
+      "id": "dashing_diva_one_gel_top_coat",
+      "category": "product",
+      "type": "top_coat",
+      "brand": "Dashing Diva",
+      "line": "One Gel",
+      "name": "One Gel Top Coat",
+      "shade_name": "Clear",
+      "size": "10 ml / 0.33 oz",
+      "verified": "web",
+      "tags": ["top_coat", "glossy", "volume", "finish_control", "one_gel_system"],
+      "capabilities": ["high_gloss_finish"],
+      "notes": ["Top coat marketed as compatible with One Gel (and most gels)."],
+      "source_urls": ["https://dashingdiva.com/products/one-gel-top-coat"],
+      "needs_QA": ["Do you mainly use this over One Gel magnetics, or over other gel brands too?"]
+    },
+    {
+      "id": "minimanimoo_moo_gel_chrome_top_and_base_coat_non_wipe",
+      "category": "product",
+      "type": "chrome_no_wipe_top",
+      "brand": "minimanimoo",
+      "line": "Moo Gel",
+      "name": "Chrome Top and Base Coat (Non-Wipe)",
+      "shade_name": "Clear",
+      "size": "10 ml / 0.33 oz",
+      "verified": "web",
+      "tags": ["chrome", "no_wipe", "top_coat", "powder_ready", "glossy"],
+      "capabilities": ["chrome_application_layer"],
+      "notes": ["Non-wipe layer intended for chrome/holo powders."],
+      "source_urls": ["https://minimanimoo.com/products/chrome-top"],
+      "needs_QA": ["Do you use this as the rub-in layer only, or also as the final top coat over chrome?"]
+    },
+    {
+      "id": "minimanimoo_magic_mirror_chrome_powder_rose_gold",
+      "category": "product",
+      "type": "chrome_powder",
+      "brand": "minimanimoo",
+      "line": "Magic Mirror Powders",
+      "name": "Magic Mirror Chrome Powder",
+      "shade_name": "Rose Gold",
+      "size": "1.5 g",
+      "verified": "web",
+      "tags": ["chrome_powder", "rose_gold", "mirror", "metallic"],
+      "capabilities": ["chrome_finish"],
+      "notes": ["Black base recommended for strongest chrome (web)."],
+      "source_urls": ["https://minimanimoo.com/products/mm-rosegold"],
+      "needs_QA": ["Tag preference: default over black base, or a transformer powder over multiple base colors?"]
+    },
+    {
+      "id": "minimanimoo_magic_mirror_chrome_powder_silver",
+      "category": "product",
+      "type": "chrome_powder",
+      "brand": "minimanimoo",
+      "line": "Magic Mirror Powders",
+      "name": "Magic Mirror Chrome Powder",
+      "shade_name": "Silver",
+      "size": "1.5 g",
+      "verified": "web",
+      "tags": ["chrome_powder", "silver", "mirror", "metallic"],
+      "capabilities": ["chrome_finish"],
+      "notes": ["Black base recommended for strongest chrome (web)."],
+      "source_urls": ["https://minimanimoo.com/products/magic-mirror-chrome-powder-silver"],
+      "needs_QA": ["Tag preference: default 'true mirror silver', or transformer over colors?"]
+    },
+    {
+      "id": "gelish_mini_matte_top_it_off_sbs-005250",
+      "category": "product",
+      "type": "top_coat",
+      "brand": "Gelish",
+      "line": "MINI Soak-Off Gel Nail Polish",
+      "name": "Matte Top It Off",
+      "shade_name": "Clear (matte finish)",
+      "shade_code_or_sku": "SBS-005250",
+      "size": "0.3 oz",
+      "verified": "web",
+      "tags": ["top_coat", "matte", "finish_control"],
+      "capabilities": ["matte_finish"],
+      "notes": ["Matte top coat in the Gelish MINI system."],
+      "source_urls": [
+        "https://www.sallybeauty.com/nails/nail-polish-and-color/top-and-base-coat-nail-polish/mini-soak-off-gel-nail-polish-matte-top-it-off/SBS-005250.html"
+      ],
+      "needs_QA": ["Which is your default matte: this or Kiara Sky Velvet Matte?"]
+    },
+
+    {
+      "id": "vnc_stamping_kit_21pcs_16plates_2stamper_2scraper_bag",
+      "category": "tool",
+      "type": "stamping_kit",
+      "brand": "VNC",
+      "name": "21 Pcs Nail Stamp Plates Set",
+      "verified": "in_hand",
+      "tags": ["stamping", "plates", "scrapers", "stampers", "pattern_tool"],
+      "capabilities": ["stamping"],
+      "components": {
+        "plates": 16,
+        "stampers_total": 2,
+        "stampers": { "clear": 1, "solid": 1 },
+        "scrapers": 2,
+        "storage_bag": 1
+      },
+      "notes": ["Stamping system; pairs with Born Pretty stamping polishes; seal under gel."],
+      "source_urls": [],
+      "needs_QA": ["Are the plates standard ~6x12cm rectangles, or smaller specialty sizes?"]
+    },
+    {
+      "id": "melodysusie_sc320i_cordless_nail_drill_30000rpm_foot_pedal",
+      "category": "tool",
+      "type": "e_file",
+      "brand": "MelodySusie",
+      "name": "Multifunctional Desktop Cordless Nail Drill w/ Foot Pedal",
+      "model": "SC320I",
+      "verified": "in_hand",
+      "tags": ["efile", "prep", "removal", "shaping"],
+      "capabilities": ["prep", "shaping", "product_removal"],
+      "max_rpm": 30000,
+      "has_foot_pedal": true,
+      "notes": [],
+      "source_urls": [],
+      "needs_QA": ["Optional: send a pic of your bits so we can tag what you have."]
+    },
+    {
+      "id": "kiara_sky_led_uv_nail_lamp_beyond_home_pink_cordless",
+      "category": "tool",
+      "type": "lamp",
+      "brand": "Kiara Sky",
+      "name": "UV/LED Nail Lamp (Cordless & Rechargeable) – Beyond Home (Pink)",
+      "verified": "in_hand",
+      "tags": ["lamp", "led_uv", "flash_cure", "sensor", "button"],
+      "capabilities": ["flash_cure", "spot_cure"],
+      "wattage": "10W",
+      "features": ["auto sensor", "flash-cure button", "more lights than One Gel lamp (per you)"],
+      "notes": ["You report this lamp performs better than the One Gel lamp (more lights)."],
+      "source_urls": [],
+      "needs_QA": []
+    },
+    {
+      "id": "dashing_diva_one_gel_led_lamp_10w",
+      "category": "tool",
+      "type": "lamp",
+      "brand": "Dashing Diva",
+      "line": "One Gel",
+      "name": "One Gel LED Lamp",
+      "verified": "in_hand",
+      "tags": ["lamp", "led", "one_gel_system", "60s_timer"],
+      "capabilities": ["one_gel_cure"],
+      "wattage": "10W",
+      "timer": "60 seconds; auto-off",
+      "features": ["button activation"],
+      "notes": ["Included in your One Gel Magnetic Starter Kit."],
+      "source_urls": [],
+      "needs_QA": []
+    },
+    {
+      "id": "dashing_diva_one_gel_power_magnet_tool",
+      "category": "tool",
+      "type": "magnet",
+      "brand": "Dashing Diva",
+      "line": "One Gel Magnetic",
+      "name": "Power Magnet Tool (Magnetic Effects Tool)",
+      "verified": "in_hand",
+      "tags": ["magnet", "magnetic", "cat_eye", "velvet"],
+      "capabilities": ["magnetic_effect"],
+      "notes": ["Included in your One Gel Magnetic Starter Kit."],
+      "source_urls": [],
+      "needs_QA": []
+    },
+    {
+      "id": "dashing_diva_magnet_round_tip",
+      "category": "tool",
+      "type": "magnet",
+      "brand": "Dashing Diva",
+      "name": "Magnet (round/circular tip)",
+      "verified": "in_hand",
+      "tags": ["magnet", "magnetic"],
+      "capabilities": ["magnetic_effect"],
+      "notes": ["You mentioned you have a Dashing Diva magnet with a circular tip."],
+      "source_urls": [],
+      "needs_QA": ["Any other magnet shapes on this tool (bar/rectangle), or only the round tip?"]
+    },
+
+    {
+      "id": "dashing_diva_one_gel_magnetic_starter_kit_villainous",
+      "category": "kit",
+      "type": "starter_kit",
+      "brand": "Dashing Diva",
+      "line": "One Gel Magnetic",
+      "name": "One Gel Magnetic Starter Kit – Villainous",
+      "verified": "in_hand",
+      "tags": ["kit", "magnetic", "starter", "one_gel_system"],
+      "capabilities": ["one_gel_magnetic_workflow"],
+      "includes": [
+        { "item_id": "dashing_diva_one_gel_magnetic_villainous", "qty": 1 },
+        { "item_id": "dashing_diva_one_gel_power_magnet_tool", "qty": 1 },
+        { "item_id": "dashing_diva_one_gel_led_lamp_10w", "qty": 1 },
+        { "name": "prep pads", "qty": 2 },
+        { "name": "manicure sticks", "qty": 2 },
+        { "name": "nail file", "qty": 1 },
+        { "name": "nail buffer", "qty": 1 }
+      ],
+      "notes": ["You own this kit; we track it mainly to show system compatibility + included tools."],
+      "source_urls": [
+        "https://dashingdiva.com/products/one-gel-magnetic-starter-kit-villainous"
+      ],
+      "needs_QA": []
+    }
+  ],
+  "designs": [
+    {
+      "id": "design_velvet_cat_eye",
+      "name": "Velvet / cat-eye magnetic",
+      "requires": {
+        "product_tags_any": ["magnetic"],
+        "tools_tags_all": ["magnet", "lamp"]
+      },
+      "nice_to_have": {
+        "product_tags_any": ["top_coat", "glossy"]
+      },
+      "notes": ["One nail at a time for best particle pull + crisp velvet line."]
+    },
+    {
+      "id": "design_reflective_glitter_full_coverage",
+      "name": "Reflective glitter statement nails",
+      "requires": {
+        "product_tags_all": ["reflective"],
+        "tools_tags_all": ["lamp"]
+      },
+      "nice_to_have": {
+        "product_tags_any": ["top_coat", "glossy"]
+      },
+      "notes": ["Expect strongest sparkle under flash/bright point light."]
+    },
+    {
+      "id": "design_stamped_line_art_over_gel",
+      "name": "Stamped line art sealed under gel",
+      "requires": {
+        "product_tags_any": ["stamping"],
+        "tools_tags_all": ["stamping"]
+      },
+      "nice_to_have": {
+        "product_tags_any": ["white", "black", "nude", "semi_sheer"]
+      },
+      "notes": [
+        "Stamp with air-dry stamping polish, let set, then seal with gel top coat to protect."
+      ]
+    },
+    {
+      "id": "design_mirror_chrome",
+      "name": "Mirror chrome manicure",
+      "requires": {
+        "product_tags_any": ["chrome_powder"],
+        "product_tags_all": ["chrome"],
+        "tools_tags_all": ["lamp"]
+      },
+      "nice_to_have": {
+        "product_tags_any": ["black", "dark"]
+      },
+      "notes": [
+        "Chrome needs the right cure window on the no-wipe layer; too under/over-cured changes adhesion."
+      ]
+    },
+    {
+      "id": "design_matte_overlay",
+      "name": "Matte overlay (finish swap)",
+      "requires": {
+        "product_tags_all": ["matte"],
+        "tools_tags_all": ["lamp"]
+      },
+      "notes": ["Use matte top coat to transform glossy colors/effects into a velvet matte look."]
+    }
+  ]
+}
